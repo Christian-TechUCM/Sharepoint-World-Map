@@ -18,10 +18,11 @@ export default class WorldBloodMap extends React.Component<
         }`}
       >
         <div className={styles.welcome}>
-          <h1>Welcome to the World Blood Map</h1>
+         <h1>Blood Distribution Around The World</h1>
         </div>
 
         <div className={styles.mapContainer}>
+        
           <WorldMapComponent />
         </div>
       </section>

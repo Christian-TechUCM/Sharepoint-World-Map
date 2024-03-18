@@ -13,34 +13,34 @@
 
 .welcome {
   text-align: center;
-  margin-bottom: 0%; /* Use percentage-based margin if needed, adjusted for responsiveness */
+  margin-bottom: 0; // Reduced from 10px to 5px to decrease space
 }
 .welcome h1,
 .welcome p {
-  margin: 0; /* Eliminate default margins on child elements */
+  margin: 0%; /* Eliminate default margins on child elements */
 }
 
 .mapContainer {
   height: 500px;
-  margin-top: -15%; /* Percentage based on the parent's height to pull closer to the welcome section */
-  margin-bottom: -7%; /* Percentage to add space between the map and the description, adjust percentage based on layout */
+  margin-top: -65px; /* Pull the map container closer to the welcome section */
+  margin-bottom: -70px; /* Add space between the map and the description */
 }
 
 .description {
   text-align: center;
-  margin-bottom: 10%; /* Adjust if necessary to percentage for responsiveness */
+  margin-bottom: 50px;
 }
 
 .links {
   a {
     text-decoration: none;
     color: "[theme:link, default:#03787c]";
-    color: var(--link);
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
 
     &:hover {
       text-decoration: underline;
       color: "[theme:linkHovered, default: #014446]";
-      color: var(--linkHovered);
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
     }
   }
 }
