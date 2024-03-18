@@ -1,0 +1,46 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+// In WorldBloodMap.module.scss
+
+.worldBloodMap {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 0%; /* Use percentage-based margin if needed, adjusted for responsiveness */
+}
+.welcome h1,
+.welcome p {
+  margin: 0; /* Eliminate default margins on child elements */
+}
+
+.mapContainer {
+  height: 500px;
+  margin-top: -15%; /* Percentage based on the parent's height to pull closer to the welcome section */
+  margin-bottom: -7%; /* Percentage to add space between the map and the description, adjust percentage based on layout */
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 10%; /* Adjust if necessary to percentage for responsiveness */
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link);
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered);
+    }
+  }
+}

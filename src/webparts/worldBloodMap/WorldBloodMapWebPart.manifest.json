@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5db1817a-2045-4bac-8d79-29efa5d71ceb",
+  "alias": "WorldBloodMapWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "WorldBloodMap" },
+    "description": { "default": "WorldBloodMap descriptionqqqq" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "WorldBloodMap. This Map is a custom solution created using SPFX, MySQL, & React Simple Maps. Developed by Christian Urbina"
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "world-blood-map-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldBloodMap/WorldBloodMapWebPart.js",
+          "manifest": "./src/webparts/worldBloodMap/WorldBloodMapWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorldBloodMapWebPartStrings": "lib/webparts/worldBloodMap/loc/{locale}.js"
+  }
+}

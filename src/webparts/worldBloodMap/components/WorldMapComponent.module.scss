@@ -1,0 +1,18 @@
+// WorldMapComponent.module.scss
+.tooltip {
+    position: fixed;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background for high contrast */
+  color: #ffffff; /* White text for readability */
+  border: 1px solid #ffffff; /* Optional: white border for more definition */
+  border-radius: 4px; /* Optional: rounded corners */
+    z-index: 1000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  
+    &.visible {
+      opacity: 1;
+    }
+  }
+  
