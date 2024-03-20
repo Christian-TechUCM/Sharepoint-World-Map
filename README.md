@@ -2,9 +2,14 @@
 
 ## Summary
 
-This is a custom Sharepoint SPFX Soultion that can be used on any sharepoint page. You can connect it to any API and map it. 
+Custom Mapping Solution for SharePoint SPFx
 
-[picture of the solution in action, if possible]
+Elevate your SharePoint experience with our Custom Mapping Web Part, designed to provide dynamic and interactive mapping capabilities within your SharePoint framework. This powerful tool seamlessly connects to any API, enabling you to harness a multitude of data sources and bring them to life on a global scale.
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+## Key Features
+API Integration: Effortlessly link with any API to fetch and display data, allowing for real-time data visualization and interaction.
+Customizable Maps: Tailor map aesthetics to match your corporate branding or project theme with customizable colors and styles.
 
 ## Used SharePoint Framework Version
 
