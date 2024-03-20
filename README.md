@@ -11,6 +11,9 @@ Elevate your SharePoint experience with our Custom Mapping Web Part, designed to
 API Integration: Effortlessly link with any API to fetch and display data, allowing for real-time data visualization and interaction.
 Customizable Maps: Tailor map aesthetics to match your corporate branding or project theme with customizable colors and styles.
 
+## Example Download
+[Blood Map](https://github.com/Christian-TechUCM/Sharepoint-World-Map/blob/main/Download/Blood%20Map.sppkg?raw=true)
+
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/badge/version-1.18.2-green.svg)
